@@ -13,8 +13,6 @@ body {
     height: 100vh;
     padding: 10px;
     font-family: 'Assistant', sans-serif;
-
-    /* background-color: rgb(209, 209, 209); */
 }
 
 main {
@@ -42,7 +40,6 @@ main {
 
     min-width: var(--box-size);
 
-
     transform-style: preserve-3d;
 
     /* animation-name: rotate;
@@ -55,11 +52,6 @@ main {
     -webkit-transform: rotateX(60deg) rotateY(0deg) rotateZ(20deg);
     -moz-transform: rotateX(60deg) rotateY(0deg) rotateZ(20deg);
     -o-transform: rotateX(60deg) rotateY(0deg) rotateZ(20deg);
-
-    /* transition: 500ms transform ease;
-    -webkit-transition: 500ms transform ease;
-    -moz-transition: 500ms transform ease;
-    -o-transition: 500ms transform ease; */
 
     transition-duration: 600ms;
     -webkit-transition-duration: 600ms;
@@ -213,7 +205,6 @@ main {
     background-color: var(--box-color);
 
     width: var(--half-box-size);
-    /* width: 50%; */
     height: inherit;
     transform: translateZ(var(--half-box-size)) rotateY(calc(var(--min-deg-open) + 25deg));
     -webkit-transform: translateZ(var(--half-box-size)) rotateY(calc(var(--min-deg-open) + 25deg));
@@ -589,7 +580,6 @@ main {
 
 @supports (-webkit-touch-callout: none) {
     /* CSS specific to iOS devices */ 
-
     input {
         -webkit-appearance: none;
     }
