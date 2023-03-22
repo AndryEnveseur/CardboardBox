@@ -479,61 +479,6 @@ main {
     place-items: center;
 }
 
-.box-package .package-face.right {
-    width: calc(var(--package-size) * .6);
-
-    transform: translateX(calc(var(--package-size) * .8)) rotateY(90deg);
-    -webkit-transform: translateX(calc(var(--package-size) * .8)) rotateY(90deg);
-    -moz-transform: translateX(calc(var(--package-size) * .8)) rotateY(90deg);
-    -o-transform: translateX(calc(var(--package-size) * .8)) rotateY(90deg);
-    transform-origin: left;
-
-    color: black;
-
-    position: absolute;
-
-    background-color: rebeccapurple;
-}
-
-.box-package .package-face.top {
-    height: calc(var(--package-size) * .6);
-
-    transform: translateY(calc(-1 * var(--package-size) * .8)) rotateX(90deg);
-    -webkit-transform: translateY(calc(-1 * var(--package-size) * .8)) rotateX(90deg);
-    -moz-transform: translateY(calc(-1 * var(--package-size) * .8)) rotateX(90deg);
-    -o-transform: translateY(calc(-1 * var(--package-size) * .8)) rotateX(90deg);
-
-    transform-origin: bottom;
-
-    background-color: orange;
-}
-
-.box-package .package-face.left {
-    background-color: blue;
-
-    width: calc(var(--package-size) * .6);
-
-    transform: translateX(calc(-1 * var(--package-size) * .8)) rotateY(-90deg);
-    -webkit-transform: translateX(calc(-1 * var(--package-size) * .8)) rotateY(-90deg);
-    -moz-transform: translateX(calc(-1 * var(--package-size) * .8)) rotateY(-90deg);
-    -o-transform: translateX(calc(-1 * var(--package-size) * .8)) rotateY(-90deg);
-
-    transform-origin: right;
-}
-
-.box-package .package-face.back {
-    background-color: aqua;
-
-    height: calc(var(--package-size) * .6);
-
-    transform: translateY(calc(var(--package-size) * .8)) rotateX(-90deg);
-    -webkit-transform: translateY(calc(var(--package-size) * .8)) rotateX(-90deg);
-    -moz-transform: translateY(calc(var(--package-size) * .8)) rotateX(-90deg);
-    -o-transform: translateY(calc(var(--package-size) * .8)) rotateX(-90deg);
-
-    transform-origin: top;
-}
-
 .box-package .package-face.front {
     transform: translateZ(0px);
     -webkit-transform: translateZ(0px);
@@ -542,8 +487,6 @@ main {
 
     background-image: url(./img/papel-recortado.webp);
     background-color: rgb(241, 241, 241);
-
-
 }
 
 .box-container .box-package a {
